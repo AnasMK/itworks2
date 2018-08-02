@@ -4,13 +4,13 @@
 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">  
+  <link rel="apple-touch-startup-image" href="assets/img/splash/launch.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="assets/img/splash/launch.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="assets/img/splash/launch.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="assets/img/splash/launch.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="assets/img/splash/launch.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="assets/img/splash/launch.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="assets/img/splash/launch.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">  
   
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -547,11 +547,9 @@
       <div class="tab-inner">
         <div class="event-content head-team">
           <h4 data-translate="Fatstep"></h4>
-          <p>
-            voluptas, praesentium maxime cum fugiat,magnam ducimus adipisci voluptas, praesentium architecto ducimus, doloribus fuga itaque omnis.
+          <p data-translate="Fastsstep">
           </p>
-          <p>
-            Redug Lares dolor sit amet, consectetur adipisicing elit. Animi vero excepturi magnam ducimus adipisci voluptas, praesentium maxime necessitatibus in dolor dolores unde ab, libero quo. Aut.
+          <p data-translate="Faastsstep">
           </p>
         </div>
       </div>
@@ -559,12 +557,10 @@
     <div class="tab-pane" id="p-view-3">
       <div class="tab-inner">
         <div class="event-content head-team">
-          <h4>Coming to Hajj step</h4>
-          <p>
-            voluptas, praesentium maxime cum fugiat,magnam ducimus adipisci voluptas, praesentium architecto ducimus, doloribus fuga itaque omnis placeat.
+          <h4 data-translate="Siastsstep"></h4>
+          <p data-translate="Siahstsstep">
           </p>
-          <p>
-            voluptas, praesentium maxime cum fugiat,magnam ducimus adipisci voluptas, praesentium architecto ducimus, doloribus fuga itaque omnis.
+          <p data-translate="Siahgstsstep">
           </p>
         </div>
       </div>
@@ -586,14 +582,13 @@
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="wellcome-text">
             <div class="well-text text-center">
-              <h2>Welcome To Our website</h2>
-              <p>
-                Subscribe to get the best offers and news about our service.
+              <h2 data-translate="welcomeSentance"></h2>
+              <p data-translate="welcomeDis">
               </p>
               <div class="subs-feilds">
                 <div class="suscribe-input">
                   <input type="email" class="email form-control width-80" id="sus_email" placeholder="Email">
-                  <button type="submit" id="sus_submit" class="add-btn width-20">Subscribe</button>
+                  <button type="submit" id="sus_submit" class="add-btn width-20" data-translate="sub"></button>
                   <div id="msg_Submit" class="h3 text-center hidden"></div>
                 </div>
               </div>
@@ -613,7 +608,7 @@
     <div class="row">
       <div class="col-md-12 col-sm-12 col-xs-12">
         <div class="section-headline text-center">
-          <h2>Pricing Table</h2>
+          <h2 data-translate="pricing"></h2>
         </div>
       </div>
     </div>
@@ -622,7 +617,7 @@
         <div class="pri_table_list">
           <h3>basic <br/> <span>$1500 / Stander Package</span></h3>
           <ol>
-            <li class="check">Cover ticket</li>
+            <li class="check" data-translate="pricing">Cover ticket</li>
             <li class="check cross">Five star hotell</li>
             <li class="check">Free transportation</li>
             <li class="check">Multiple advisors</li>

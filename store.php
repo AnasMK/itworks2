@@ -4,14 +4,6 @@
 	<title></title>
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-	<link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-	<link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-	<link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-	<link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-	<link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
-	<link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
-	<link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">  
-
 	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
@@ -20,7 +12,7 @@
 
 
 	<meta charset="utf-8">
-	<title>ItWorks - Home</title>
+	<title>ItWorks - Store</title>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
 	<meta content="" name="keywords">
@@ -70,8 +62,20 @@
 	<div class="langChoos">
 		<h3>Translate to</h3>
 		<select class="langOption">
-			<option value="volvo">Volvo</option>
-		</select>
+			<option>English</option>
+			<option value="ar">Arabic</option>
+		</select> <br><br>
+		<div class="awesome-project-1 fix">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="awesome-menu ">
+							<ul class="project-menu">
+								<li>
+									<a href="#" onclick="change_lang()" class="active" data-filter="*">translate</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
 	</div>
 	<!-- Start Store with Languge Area -->
 
@@ -81,7 +85,7 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="section-headline text-center">
-						<h2>Our Store</h2>
+						<h2>Shoping</h2>
 					</div>
 				</div>
 			</div>
@@ -112,12 +116,11 @@
 					<div class="col-md-4 col-sm-4 col-xs-12 design development">
 						<div class="single-awesome-project">
 							<div class="awesome-img">
-								<a href="#"><img src="assets/img/portfolio/1.jpg" alt="" /></a>
+								<a href="#"><img src="assets/img/portfolio/Sone.jpg" alt="" /></a>
 								<div class="add-actions text-center">
 									<div class="project-dec">
 										<a class="venobox" data-gall="myGallery" href="img/portfolio/1.jpg">
-											<h4>Business City</h4>
-											<span>Web Development</span>
+											<h4 data-translate="pen"></h4>
 										</a>
 									</div>
 								</div>
@@ -129,12 +132,11 @@
 					<div class="col-md-4 col-sm-4 col-xs-12 photo">
 						<div class="single-awesome-project">
 							<div class="awesome-img">
-								<a href="#"><img src="assets/img/portfolio/2.jpg" alt="" /></a>
+								<a href="#"><img src="assets/img/portfolio/Stow.jpg" alt="" /></a>
 								<div class="add-actions text-center">
 									<div class="project-dec">
 										<a class="venobox" data-gall="myGallery" href="assets/img/portfolio/2.jpg">
-											<h4>Blue Sea</h4>
-											<span>Photosho</span>
+											<h4 data-translate="pencil"></h4>
 										</a>
 									</div>
 								</div>
@@ -143,77 +145,7 @@
 					</div>
 					<!-- single-awesome-project end -->
 					<!-- single-awesome-project start -->
-					<div class="col-md-4 col-sm-4 col-xs-12 design">
-						<div class="single-awesome-project">
-							<div class="awesome-img">
-								<a href="#"><img src="assets/img/portfolio/3.jpg" alt="" /></a>
-								<div class="add-actions text-center">
-									<div class="project-dec">
-										<a class="venobox" data-gall="myGallery" href="assets/img/portfolio/3.jpg">
-											<h4>Beautiful Nature</h4>
-											<span>Web Design</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single-awesome-project end -->
-					<!-- single-awesome-project start -->
-					<div class="col-md-4 col-sm-4 col-xs-12 photo development">
-						<div class="single-awesome-project">
-							<div class="awesome-img">
-								<a href="#"><img src="assets/img/portfolio/4.jpg" alt="" /></a>
-								<div class="add-actions text-center">
-									<div class="project-dec">
-										<a class="venobox" data-gall="myGallery" href="assets/img/portfolio/4.jpg">
-											<h4>Creative Team</h4>
-											<span>Web design</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single-awesome-project end -->
-					<!-- single-awesome-project start -->
-					<div class="col-md-4 col-sm-4 col-xs-12 development">
-						<div class="single-awesome-project">
-							<div class="awesome-img">
-								<a href="#"><img src="assets/img/portfolio/5.jpg" alt="" /></a>
-								<div class="add-actions text-center text-center">
-									<div class="project-dec">
-										<a class="venobox" data-gall="myGallery" href="assets/img/portfolio/5.jpg">
-											<h4>Beautiful Flower</h4>
-											<span>Web Development</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single-awesome-project end -->
-					<!-- single-awesome-project start -->
-					<div class="col-md-4 col-sm-4 col-xs-12 design photo">
-						<div class="single-awesome-project">
-							<div class="awesome-img">
-								<a href="#"><img src="assets/img/portfolio/6.jpg" alt="" /></a>
-								<div class="add-actions text-center">
-									<div class="project-dec">
-										<a class="venobox" data-gall="myGallery" href="assets/img/portfolio/6.jpg">
-											<h4>Night Hill</h4>
-											<span>Photoshop</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single-awesome-project end -->
-				</div>
-			</div>
-		</div>
-	</div>
+					
 	<!-- awesome-portfolio end -->
 
 	<!-- JavaScript Libraries -->
@@ -232,6 +164,9 @@
 
 	<!-- Contact Form JavaScript File -->
 	<script src="assets/contactform/contactform.js"></script>
+
+	<!-- Language Translater -->
+  <script src="langTran.js"></script>
 
 	<script src="assets/js/main.js"></script>
 	<script src="./upup.min.js"></script>

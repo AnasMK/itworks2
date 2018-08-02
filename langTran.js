@@ -211,6 +211,55 @@ var dictionary = {
         'en': ' Coming to Hajj step ',
         'ar': 'خطوة القدوم للحج',
     },
+    'Siahstsstep': {
+        'en': ' voluptas, praesentium maxime cum fugiat,magnam ducimus adipisci voluptas, praesentium architecto ducimus, doloribus fuga itaque omnis placeat. ',
+        'ar': 'ايطلب من جميع الوكالات التي تتعامل مع طلبات تأشيرات الحج أن تقوم بتعبئة وتوقيع عقد صادر عن وزارة الحج قبل ',
+    },
+    'Siahgstsstep': {
+        'en': ' voluptas, praesentium maxime cum fugiat,magnam ducimus adipisci voluptas, praesentium architecto ducimus, doloribus fuga itaque omnis. ',
+        'ar': 'خطوة القدوم للحج',
+    },
+    'welcomeSentance': {
+        'en': ' Welcome To Our website ',
+        'ar': 'هلا بكم في موقعنا',
+    },
+    'welcomeDis': {
+        'en': ' Subscribe to get the best offers and news about our service. ',
+        'ar': 'اشترك بخدمة الرسائل ليصلك كل عروضنا واخبارنا',
+    },
+    'sub': {
+        'en': ' Subscribe ',
+        'ar': 'اشترك',
+    },
+    'pricing': {
+        'en': ' Pricing Table ',
+        'ar': 'قائمة اسعارنا',
+    },
+    'Fprice': {
+        'en': 'basic ',
+        'ar': 'الباقة ',
+    },
+    'pricing': {
+        'en': ' Pricing Table ',
+        'ar': 'قائمة اسعارنا',
+    },
+    'pricing': {
+        'en': ' Pricing Table ',
+        'ar': 'قائمة اسعارنا',
+    },
+    'pen': {
+        'en': ' pen ',
+        'ar': 'قلم',
+    },
+    'pencil': {
+        'en': ' pencil',
+        'ar': 'قلم رصاص',
+    },
+    'pricing': {
+        'en': ' Pricing Table ',
+        'ar': 'قائمة اسعارنا',
+    },
+
 
 
 
