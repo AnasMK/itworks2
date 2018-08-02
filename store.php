@@ -169,12 +169,6 @@
   <script src="langTran.js"></script>
 
 	<script src="assets/js/main.js"></script>
-	<script src="./upup.min.js"></script>
-	<script>
-		UpUp.start({
-			'content-url': 'offline.html',
-			'assets': ['./assets/img/cat-o.jpg', 'assets/css/nivo-slider-theme.css','assets/css/style.css', 'assets/css/responsive.css', 'assets/lib/bootstrap/css/bootstrap.min.css', './pawpaw.svg']
-		});
-	</script>
+	
 </body>
 </html>
