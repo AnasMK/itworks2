@@ -118,9 +118,9 @@
 							<div class="awesome-img">
 								<a href="#"><img src="assets/img/portfolio/Sone.jpg" alt="" /></a>
 								<div class="add-actions text-center">
-									<div class="project-dec">
-										<a class="venobox" data-gall="myGallery" href="img/portfolio/1.jpg">
-											<h4 data-translate="pen"></h4>
+									<div >
+										<a class="venobox"  href="img/portfolio/1.jpg">
+											<h4 data-translate="pen" "></h4>
 										</a>
 									</div>
 								</div>
@@ -134,8 +134,8 @@
 							<div class="awesome-img">
 								<a href="#"><img src="assets/img/portfolio/Stow.jpg" alt="" /></a>
 								<div class="add-actions text-center">
-									<div class="project-dec">
-										<a class="venobox" data-gall="myGallery" href="assets/img/portfolio/2.jpg">
+									<div >
+										<a class="venobox"  href="assets/img/portfolio/2.jpg">
 											<h4 data-translate="pencil"></h4>
 										</a>
 									</div>
