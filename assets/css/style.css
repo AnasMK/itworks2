@@ -2341,6 +2341,10 @@ span.email-notes {
   margin: 0;
   padding-top: 30px;
 }
+.reIcon{
+  width: 30%;
+  height: 40%;
+}
 
 /*----------------------------------------
  .End CSS

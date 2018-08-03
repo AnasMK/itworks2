@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<a href="#" class="map-btn" data-lat="21.616846799999998" data-lng="39.1563411"> Show Map </a>
+
+<script src="assets/lib/jquery/jquery.min.js"></script>
+<script src="getLocation.js"></script>
+<script type="text/javascript">
+
+
+	$(function()
+	{
+    $('.map-btn').click(function(event) {
+      var lat = $(this).data('lat');
+      var lng = $(this).data('lng');
+      showMap(lat,lng);
+    });
+});
+
+function showMap(lat,lng){
+   var url = "https://maps.google.com/?q=" + lat + "," + lng;
+   window.open(url);
+}    
+</script>
+
+</body>
+</html>

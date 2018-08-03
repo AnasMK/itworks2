@@ -1,0 +1,12 @@
+$(function(){
+    $('.map-btn').click(function(event) {
+      var lat = $(this).data('lat');
+      var lng = $(this).data('lng');
+      showMap(lat,lng);
+    });
+});
+
+function showMap(lat,lng){
+   var url = "https://maps.google.com/?q=" + lat + "," + lng;
+   window.open(url);
+}    

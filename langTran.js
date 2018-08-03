@@ -7,8 +7,8 @@ var dictionary = {
         'en': 'Home',
         'ar': 'الصفحة الرئيسية'
     },
-    'Aboutbtn': {
-        'en': 'About',
+    'Chattbtn': {
+        'en': 'Chat',
         'ar': 'تفاصيل عنا'
     },
     'Servicesbtn': {
@@ -20,8 +20,8 @@ var dictionary = {
         'ar': 'المتجر'
     },
     'Contactbtn': {
-        'en': 'Contact',
-        'ar': 'تواصل معنا'
+        'en': 'Mnasik',
+        'ar': 'مناسك الحج'
     },
     'Trans': {
         'en': 'العربية',
@@ -33,7 +33,7 @@ var dictionary = {
     },
     'bannerDis': {
         'en': 'Ya Allah give us the chance to offer hajj. Ameen',
-        'ar': 'يا الله ارزقنا لنعطي الفرصة ليحج الجميع. امين'
+        'ar': 'اللهم سلم الحجاج والمعتمرين في برك وبحرك وجوك، اللهم أعدهم إلى أهليهم سالمين غانمين'
     },
     'moreService': {
         'en': 'See Services',
@@ -72,23 +72,23 @@ var dictionary = {
         'ar': 'خدماتنا',
     },
     'FService': {
-        'en': ' Communicate with Hajj adviser',
-        'ar': 'تواصل مع مسؤول الحملة الخاص بك',
+        'en': ' Communication',
+        'ar': 'الترجمة'
     },
     'FServiceDis': {
         'en': ' will have to make sure you can ask any things and in any time, also we will guide you in Hajj.',
         'ar': 'سنحرص على جميع استفساراتك سيتم الرد عليها على مدار الساعةو وسيقوم بتوجيهك لكل الخطوات اللي تحتاج مساعدة بها.',
     },
     'SService': {
-        'en': ' Request services easily',
-        'ar': 'اطلب احتياجاتك بسهولة',
+        'en': ' Mnasik',
+        'ar': 'مناسك الحج',
     },
     'SServiceDis': {
         'en': ' will have to make sure the all words is translating to your languge and whene you want any t',
         'ar': 'سنحرص على ان جميع المصطلحات ستتم ترجمتها للغة بلدك لتكون سهلة بالفهم والتواصل وسيتم عن طريق تقنيات حديثة.',
     },
     'TService': {
-        'en': ' Locate you when you are lost',
+        'en': ' Locate hajj members',
         'ar': 'نقوم ب ايجادك عن تعرضك للضياع',
     },
     'TServiceDis': {
@@ -96,7 +96,7 @@ var dictionary = {
         'ar': 'سنحرص على انقوم بالتعامل مع اي حالة ضياع ب اسرع توقيت لجعلك بعيد عن المخاطر.',
     },
     'FoService': {
-        'en': ' Full services for special need',
+        'en': ' Emergency numbers',
         'ar': 'اطلب احتياجاتك بسهولة',
     },
     'FoServiceDis': {
@@ -258,6 +258,14 @@ var dictionary = {
     'pricing': {
         'en': ' Pricing Table ',
         'ar': 'قائمة اسعارنا',
+    },
+    'chatService': {
+        'en': 'shopping',
+        'ar': 'محادثة'
+    },
+    'shopeSevice': {
+        'en': 'chatting',
+        'ar': 'سوق'
     },
 
 
